@@ -1,0 +1,157 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5fdf6; /* Light greenish background for the page */
+    color: #2a7b47; /* Greenish text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Form container */
+.register-container{
+    background-color: #b2c9bf; /* Light greenish background for the form */
+    padding: 20px 30px;
+    border: 2px solid #49794b; /* Soft green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Set a max width for the form container */
+    width: 100%;
+    height: auto; /* Auto height to adjust dynamically */
+}
+.login-container {
+    background-color: #b2c9bf; /* Light greenish background for the form */
+    padding: 20px 30px;
+    border: 2px solid #49794b; /* Soft green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 500px; /* Set a max width for the form container */
+    width: 80%;
+}
+
+/* Form header */
+.register-container h1{
+text-align: center;
+    margin-bottom: 30px;
+    color: #2f3907; /* Greenish header color */
+    font-size: 30px;
+    font-weight: bold;
+}
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #293d0d; /* Greenish header color */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form elements horizontally */
+    gap: 1px; /* Space between rows */
+}
+
+/* Labels and inputs styling */
+.login-container form label {
+    display: inline-block;
+    width: 230px; /* Fixed width for all labels */
+    text-align: left; /* Align label text to the right */
+    font-weight: bold;
+    color: #127033; /* Greenish label color */
+    margin-right: 10px; /* Add space between label and input */
+}
+.register-container form label {
+    display: inline-block;
+    width: 230px; /* Fixed width for labels */
+    text-align: left; /* Align label text to the right */
+    font-weight: bold;
+    color: #127033; ;
+}
+.login-container
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #4f6a50; /* Light green border for inputs */
+    border-radius: 5px;
+    width: 250px; /* Fixed width for inputs */
+    font-size: 14px;
+    background-color: #ffffff; /* White background for inputs */
+}
+.register-container form input,
+.register-container form textarea {
+    width: 250px; /* Fixed width for inputs */
+    padding: 7px;
+    margin-bottom: 3px;
+    border: 1px solid #4f6a50; /* Light green border for inputs */
+    border-radius: 5px;
+    background-color: #ffffff; /* White background for inputs */
+    font-size: 14px;
+}
+.register-container form div {
+    display: flex;
+    justify-content: center; /* Align labels and inputs side by side */
+    align-items: center; /* Align vertically */
+    gap: 5px; /* Space between label and input */
+}
+
+/* Centered layout for radio buttons */
+form input[type="radio"] {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* Checkbox and terms */
+form input[type="checkbox"] {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+form label[for="terms"] {
+    text-align: left;
+    font-size: 15px;
+}
+
+/* Submit button */
+form button {
+    background-color: #075322; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #22663a; /* Darker green on hover */
+}
+
+/* Account info text */
+.account-info {
+    text-align: center;
+    color: #0b2313;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Links */
+.account-info a {
+    color: #112819;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account-info a:hover {
+    text-decoration: underline;
+}
