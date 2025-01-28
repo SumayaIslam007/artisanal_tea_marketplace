@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #2a7b47; /* Green theme */
+    color: white;
+    position: relative;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.website-name {
+    font-family: 'Dancing Script', cursive; /* Replace with any Google Font */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+.navbar-dropdown {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #2a7b47;
+}
+
+.navbar-dropdown a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-dropdown a:hover {
+    background-color: #22663a;
+}
+
+.navbar-toggle {
+    background-color: #2a7b47;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar-toggle:focus {
+    outline: none;
+}
+
+/* Dashboard Content */
+.product-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two products per row */
+    gap: 20px;
+}
+
+/* Product Card */
+.product-details {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    font-family: 'Roboto', sans-serif; /* Change font for product details */
+}
+
+.product-image {
+    width: 100%; /* Make the image take the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 300px; /* Optional: Set a maximum width for the image */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-info .Price, .product-info .Quantity, .product-info .Description {
+    margin: 5px 0;
+    color: #4e4747;
+    font-family: 'Roboto', sans-serif; /* Change font for product details */
+}
+
+.product-info .Price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #22663a;
+}
+
+/* Product Buttons */
+.product-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add some space between the buttons */
+    margin: 10px 0 15px;
+}
+
+.product-buttons button {
+    background-color: #2a7b47; /* Green button color */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
