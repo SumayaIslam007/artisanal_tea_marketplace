@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="../../assets/css/about.css" rel="stylesheet">
+    <link href="/css/about.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
