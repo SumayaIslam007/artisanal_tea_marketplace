@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="/css/dashboard.css" rel="stylesheet">
+    <link href="../public/css/dashboard.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
@@ -23,7 +23,7 @@
 </div>
 <div class="product-container">
     <div class="product-details">
-        <img src="/images/green_tea.png" alt="Green-tea" class="product-image">
+        <img src="../public/images/green_tea.png" alt="Green-tea" class="product-image">
         <div class="product-info">
             <h2>Green Tea</h2>
             <p class="Price">Price: $10</p>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/black_tea.png" alt="Black-tea" class="product-image">
+        <img src="../public/images/black_tea.png" alt="Black-tea" class="product-image">
         <div class="product-info">
             <h2>Black Tea</h2>
             <p class="Price">Price: $15</p>
@@ -51,7 +51,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/white_tea.png" alt="White-tea" class="product-image">
+        <img src="../public/images/white_tea.png" alt="White-tea" class="product-image">
         <div class="product-info">
             <h2>White Tea</h2>
             <p class="Price">Price: $20</p>
@@ -65,7 +65,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/olong_tea.png" alt="Oolong-tea" class="product-image">
+        <img src="../public/images/olong_tea.png" alt="Oolong-tea" class="product-image">
         <div class="product-info">
             <h2>Oolong Tea</h2>
             <p class="Price">Price: $25</p>
@@ -79,7 +79,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/herbal_tea.png" alt="Herbal-tea" class="product-image">
+        <img src="../public/images/herbal_tea.png" alt="Herbal-tea" class="product-image">
         <div class="product-info">
             <h2>Herbal Tea</h2>
             <p class="Price">Price: $30</p>
@@ -93,7 +93,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/masala_tea.jpg" alt="Masala-tea" class="product-image">
+        <img src="../public/images/masala_tea.jpg" alt="Masala-tea" class="product-image">
         <div class="product-info">
             <h2>Masala Tea</h2>
             <p class="Price">Price: $35</p>
@@ -107,7 +107,7 @@
     </div>
     
     <div class="product-details">
-        <img src="/images/chemomile_tea.png" alt="Iced-tea" class="product-image">
+        <img src="../public/images/chemomile_tea.png" alt="chamomile-tea" class="product-image">
         <div class="product-info">
             <h2>Chamomile Tea</h2>
             <p class="Price">Price: $40</p>
@@ -121,7 +121,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/mint_tea.png" alt="Iced-tea" class="product-image">
+        <img src="../public/images/mint_tea.png" alt="mint-tea" class="product-image">
         <div class="product-info">
             <h2>Mint Tea</h2>
             <p class="Price">Price: $15</p>
@@ -135,7 +135,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/lemon_tea.png" alt="Iced-tea" class="product-image">
+        <img src="..public/images/lemon_tea.png" alt="Iced-tea" class="product-image">
         <div class="product-info">
             <h2>Lemon Tea</h2>
             <p class="Price">Price: $20</p>
@@ -149,7 +149,7 @@
     </div>
 
     <div class="product-details">
-        <img src="/images/jasmine_tea.png" alt="Iced-tea" class="product-image">
+        <img src="../public/images/jasmine_tea.png" alt="Iced-tea" class="product-image">
         <div class="product-info">
             <h2>Jasmine Tea</h2>
             <p class="Price">Price: $25</p>

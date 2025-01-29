@@ -25,6 +25,9 @@ switch ($page) {
     case 'seller':
         include __DIR__ . '/../src/views/seller/index.php';
         break;
+    case 'contact':
+        include __DIR__ . '/../src/views/contact.php';
+        break;
     default:
         echo "Page not found.";
         break;
