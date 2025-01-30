@@ -10,7 +10,7 @@
 <body>
 <div class="header">
     <div class="header-center">
-        <img src="../../assets/images/logo.png" alt="Logo" class="logo"> 
+        <img src="../public/images/logo.png" alt="Logo" class="logo"> 
         <h1 class="website-name">Artisanal Tea Marketplace</h1>
     </div>
     <button class="navbar-toggle" onclick="toggleNavbar()"><i class="fas fa-bars"></i> Menu</button>

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="/css/about.css" rel="stylesheet">
+    <link href="../public/css/about.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
     <div class="header-center">
-        <img src="../../assets/images/logo.png" alt="Logo" class="logo">
+        <img src="../public/images/logo.png" alt="Logo" class="logo">
         <h1 class="website-name">Artisanal Tea Marketplace</h1>
     </div>
     <button class="navbar-toggle" onclick="toggleNavbar()"><i class="fas fa-bars"></i> Menu</button>
