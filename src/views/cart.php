@@ -74,7 +74,10 @@ foreach ($_SESSION['cart'] as $productId) {
             </tbody>
         </table>
         <p>Total Price: $<?php echo $totalPrice; ?></p>
-        <button class="proceed-to-payment">Proceed to Payment</button>
+        <form action="../public/index.php?page=payment" method="POST">
+        <input type="hidden" name="totalPrice" value="<?php echo $totalPrice; ?>">
+            <button class="proceed-to-payment">Proceed to Payment</button>
+        </form>
     <?php endif; ?>
 </div>
 <script src="/artisanal_tea_marketplace/public/js/cart.js"></script>

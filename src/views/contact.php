@@ -17,9 +17,9 @@
     <div class="navbar-dropdown" id="navbarDropdown">
         <a href="dashboard.php"><i class="fas fa-home"></i> Home</a>
         <a href="#search"><i class="fas fa-search"></i> Search Products</a>
-        <a href="about.php"><i class="fas fa-info-circle"></i> About</a>
-        <a href="contact.php"><i class="fas fa-envelope"></i> Contact</a>
-        <a href="login.php" class="right"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        <a href="/artisanal_tea_marketplace/public/index.php?page=about"><i class="fas fa-info-circle"></i> About</a>
+        <a href="/artisanal_tea_marketplace/public/index.php?page=contact"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="/artisanal_tea_marketplace/public/index.php?page=login" class="right"><i class="fas fa-sign-out-alt"></i> Logout</a>
     </div>
 </div>
 <div class="content">
