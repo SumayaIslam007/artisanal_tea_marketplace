@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Payment</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="../public/css/about.css" rel="stylesheet">
+    <link href="../public/css/payment.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
@@ -22,14 +22,35 @@
         <a href="/artisanal_tea_marketplace/public/index.php?page=login" class="right"><i class="fas fa-sign-out-alt"></i> Logout</a>
     </div>
 </div>
+<?php
+if (isset($_GET['error'])) {
+    echo "<p style='color:red; text-align:center;'>" . htmlspecialchars($_GET['error']) . "</p>";
+}
+?>
+<?php
+$totalPrice = isset($_POST['totalPrice']) ? $_POST['totalPrice'] : 0;
+?>
 <div class="content">
-    <h2>About Us</h2>
-    <p>Welcome to Artisanal Tea Marketplace, your number one source for all things tea. We're dedicated to providing you the very best of artisanal teas, with an emphasis on quality, sustainability, and customer service.</p>
-    <p>Founded in 2024, Artisanal Tea Marketplace has come a long way from its beginnings. When we first started out, our passion for eco-friendly and high-quality teas drove us to start our own business.</p>
-    <p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
-    <p>Sincerely,<br>The Artisanal Tea Marketplace Team</p>
+    <h2>Payment</h2>
+    <p>Total Amount: $<?php echo $totalPrice; ?></p>
+    <form action="/artisanal_tea_marketplace/src/controllers/process_payment.php" method="POST" id="paymentForm">
+        
+        <input type="hidden" name="totalPrice" value="<?php echo htmlspecialchars($totalPrice); ?>">
+        <label for="cardNumber">Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" ><br>
+
+        <label for="expiryDate">Expiry Date:</label>
+        <input type="text" id="expiryDate" name="expiryDate" ><br>
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" ><br>
+
+        <label for="cardName">Name on Card:</label>
+        <input type="text" id="cardName" name="cardName" ><br>
+
+        <button type="submit">Proceed to Payment</button>
+    </form>
 </div>
-<script src="https://kit.fontawesome.com/570cc9af35.js" crossorigin="anonymous"></script>   
 <script>
 function toggleNavbar() {
     var navbarDropdown = document.getElementById("navbarDropdown");
@@ -40,5 +61,7 @@ function toggleNavbar() {
     }
 }
 </script>
+<script src="/artisanal_tea_marketplace/public/js/payment.js"></script>
+<script src="https://kit.fontawesome.com/570cc9af35.js" crossorigin="anonymous"></script>
 </body>
 </html>

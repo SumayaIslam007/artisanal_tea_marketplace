@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/EnvLoader.php';
+include_once __DIR__ . '/EnvLoader.php';
 
 class Database {
     private static $connection = null;

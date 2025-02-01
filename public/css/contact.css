@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #2a7b47; /* Green theme */
+    color: white;
+    position: relative;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.website-name {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.navbar-dropdown {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #2a7b47;
+}
+
+.navbar-dropdown a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-dropdown a:hover {
+    background-color: #22663a;
+}
+
+.navbar-toggle {
+    background-color: #2a7b47;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar-toggle:focus {
+    outline: none;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content form label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.content form input,
+.content form textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.content form button {
+    background-color: #2a7b47;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.content form button:hover {
+    background-color: #22663a;
+}
