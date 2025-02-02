@@ -12,14 +12,14 @@
         <h1> Customer Login </h1>
         <form action="dashboard.php" method="post">
             <label for="name">Username:</label>
-            <input type="text" id="name" name="name" required><br>
+            <input type="text" id="name" name="name" ><br>
         
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required><br>
+            <input type="password" id="password" name="password" ><br>
             
             <button type="submit">Login</button>    
         </form>
-    <p class="account-info"> Don't have an account? <a href="registration.php"> Register here </a></p>
+    <p class="account-info"> Don't have an account? <a href="/artisanal_tea_marketplace/public/index.php?page=registration"> Register here </a></p>
     </div>
 </body>
 </html>
