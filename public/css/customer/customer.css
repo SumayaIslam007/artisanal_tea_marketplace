@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f5fdf6; /* Light greenish background for the page */
     color: #2a7b47; /* Greenish text color */
     display: flex;
@@ -18,12 +18,12 @@ body {
 /* Form container */
 .register-container{
     background-color: #b2c9bf; /* Light greenish background for the form */
-    padding: 20px 30px;
+    padding: 20px 40px;
     border: 2px solid #49794b; /* Soft green border */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    max-width: 400px; /* Set a max width for the form container */
-    width: 100%;
+    max-width: 500px; /* Set a max width for the form container */
+    width: 90%;
     height: auto; /* Auto height to adjust dynamically */
 }
 .login-container {
@@ -39,6 +39,7 @@ body {
 /* Form header */
 .register-container h1{
 text-align: center;
+font-family: 'Times New Roman', Times, serif;
     margin-bottom: 30px;
     color: #2f3907; /* Greenish header color */
     font-size: 30px;
@@ -107,6 +108,24 @@ form textarea {
 form input[type="radio"] {
     margin-right: 5px;
     display: inline-block;
+}
+
+.gender-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.gender-container input{
+    margin: 0;
+}
+
+.gender-container label {
+    margin-right: 10px;
+    gap: 2px;
 }
 
 /* Checkbox and terms */
