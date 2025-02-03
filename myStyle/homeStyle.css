@@ -1,0 +1,130 @@
+/* Style for the home page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: xx-large;
+  
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3a8e9c;
+  color: #333;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  text-align: left;
+  color: #3a8e9c;
+}
+
+form {
+  align: center;
+  max-width: 900px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 2px solid #2e0404;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #3a8e9c;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+label {
+  color: #3a8e9c;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-right: 20px;
+  width: 150px; /* Set consistent label width */
+  display: inline-block; /* Ensures labels are in one line */
+  text-align: left;
+}
+
+button{
+  width: 250px; 
+  height: 50px; 
+  padding: 12px 25px; 
+  font-size: 18px; 
+  margin: 10px 0;
+  border: 1px solid #3a8e9c;
+  background-color: #3a8e9c;
+  border-radius: 4px;
+  
+}
+button:hover {
+  background-color:  #49a7b8;
+  transform: scale(1.05); 
+}
+
+#logout{
+  width: 150px; 
+  height: 50px; 
+  padding: 12px 25px; 
+  font-size: 18px; 
+ 
+  border: 1px solid #3a8e9c;
+  background-color: #3a8e9c;
+  border-radius: 4px; 
+  position: absolute;
+  top: 60px;
+  right: 5px;
+}
+
+#logout:hover{
+  background-color:  #49a7b8;
+  transform: scale(1.05); 
+}
+
+#profile {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  
+  border: 1px solid #3a8e9c;
+  background-color: #eff2f3;
+  border-radius: 100px;
+  
+ 
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  padding: 0;              /* Remove default padding */
+
+  position: absolute;
+  top: 60px;
+  right: 160px;
+}
+
+#profile:hover{
+  background-color:  #9bb3b8;
+  transform: scale(1.05); 
+}
+
+
+
+
+
+
+
